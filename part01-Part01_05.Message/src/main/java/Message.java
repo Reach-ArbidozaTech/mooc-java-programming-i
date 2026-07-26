@@ -12,6 +12,7 @@ public class Message {
         String message = scanner.nextLine();
 
         System.out.println(message);
+        System.out.println("Hello" + " World");
 
     }
 }
