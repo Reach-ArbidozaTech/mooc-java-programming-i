@@ -8,5 +8,12 @@ public class Greeting {
 
         // Write your program here
 
+        System.out.println("What's your name?");
+        
+        String name = scanner.nextLine();
+        String greeting = "Hi ";
+
+        System.out.println(greeting + name);
+
     }
 }
