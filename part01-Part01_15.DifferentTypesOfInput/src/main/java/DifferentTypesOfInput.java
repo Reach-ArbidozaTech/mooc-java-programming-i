@@ -10,11 +10,11 @@ public class DifferentTypesOfInput {
         System.out.println("Give a string:");
         String text = scan.nextLine();
         System.out.println("Give an integer:");
-        int integerValue = Integer.valueOf(scan.nextLine());
+        int integerValue = Integer.parseInt(scan.nextLine());
         System.out.println("Give a double:");
         double doubleValue = Double.valueOf(scan.nextLine());
         System.out.println("Give a boolean:");
-        boolean booleanValue = Boolean.valueOf(scan.nextLine());
+        boolean booleanValue = Boolean.parseBoolean(scan.nextLine());
         
         System.out.println("You gave the string " + text);
         System.out.println("You gave the integer " + integerValue);
